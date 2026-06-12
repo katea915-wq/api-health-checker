@@ -1,0 +1,5 @@
+history/results.json
+reports/report.html
+__pycache__/
+*.pyc
+debug.log
