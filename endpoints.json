@@ -1,0 +1,49 @@
+{
+  "endpoints": [
+    {
+      "name": "GitHub Status",
+      "url": "https://www.githubstatus.com/api/v2/status.json"
+    },
+    {
+      "name": "HTTPBin GET",
+      "url": "https://httpbin.org/get"
+    },
+    {
+      "name": "HTTPBin Delay 2s",
+      "url": "https://httpbin.org/delay/2"
+    },
+    {
+      "name": "HTTP 404",
+      "url": "https://stubkit.dev/status/404"
+    },
+    {
+      "name": "HTTP 500",
+      "url": "https://stubkit.dev/status/500"
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com/posts/1"
+    },
+    {
+      "name": "Swapi people",
+      "url": "https://swapi.py4e.com/api/people"
+    },
+    {
+      "name": "Postman Echo",
+      "url": "https://postman-echo.com/get"
+    },
+    {
+      "name": "Petstore List Pets",
+      "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available"
+    },
+    {
+      "name": "Simple-Books get book",
+      "url": "https://simple-books-api.click/books/2"
+    },
+
+    {
+      "name": "About:blank",
+      "url": "http://10.255.255.1"
+    }
+  ]
+}

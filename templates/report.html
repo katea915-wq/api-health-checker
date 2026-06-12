@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Health Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; background: #F9F4F5; }
+        h1 { color: #71B340; }
+        p.meta { color: #680095; font-size: 0.9em; }
+        table { border-collapse: collapse; width: 100%; background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        th { background: #0A369D; color: white; padding: 12px; text-align: left; }
+        td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f9f9f9; }
+        .up   { background: #71B340; color: white; text-align: center; font-weight: bold; }
+        .down { background: #A5243D; color: white; text-align: center; font-weight: bold; }
+        .center { text-align: center; }
+        .muted  { text-align: center; color: #C8B8DB; font-size: 0.85em; }
+        .error  { color: #e74c3c; }
+    </style>
+</head>
+<body>
+    <h1>API Health Report</h1>
+    <p class="meta">Generated: {{ generated_at }} | Total checks in history: {{ total_checks }}</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Code</th>
+                <th>Last Latency</th>
+                <th>Avg Latency</th>
+                <th>Uptime %</th>
+                <th>Last Check</th>
+                <th>Error</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.name }}</td>
+                <td><a href="{{ row.url }}" target="_blank">{{ row.url }}</a></td>
+                <td class="{{ row.status | lower }}">{{ row.status }}</td>
+                <td class="center">{{ row.status_code or '—' }}</td>
+                <td class="center">{{ row.latency }}</td>
+                <td class="center">{{ row.avg_latency }}</td>
+                <td class="center">{{ row.uptime_pct }}%</td>
+                <td class="muted">{{ row.timestamp }}</td>
+                <td class="error">{{ row.error }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
