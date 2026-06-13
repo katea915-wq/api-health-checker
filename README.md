@@ -68,6 +68,7 @@ Report saved: reports/report.html
 ```
 ![Report screenshot](assets/report_screenshot.png)
 
+```
 ## Project structure
 api-health-checker/
 ├── checker.py          # logic of checks and retry
@@ -82,3 +83,4 @@ api-health-checker/
 │   └── report.html     # finished report
 └── templates/
     └── report.html     # Jinja2 template
+```
