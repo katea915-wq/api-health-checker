@@ -3,248 +3,83 @@
     "name": "GitHub Status",
     "url": "https://www.githubstatus.com/api/v2/status.json",
     "status_code": 200,
-    "latency_ms": 689.14,
-    "timestamp": "2026-06-11T17:07:15.963765",
+    "latency_ms": 706.17,
+    "timestamp": "2026-06-13T12:34:01.174390",
     "status": "UP"
   },
   {
     "name": "HTTPBin GET",
     "url": "https://httpbin.org/get",
     "status_code": 200,
-    "latency_ms": 1052.6,
-    "timestamp": "2026-06-11T17:07:17.018328",
+    "latency_ms": 2796.34,
+    "timestamp": "2026-06-13T12:34:04.083321",
     "status": "UP"
   },
   {
     "name": "HTTPBin Delay 2s",
     "url": "https://httpbin.org/delay/2",
     "status_code": 200,
-    "latency_ms": 3518.21,
-    "timestamp": "2026-06-11T17:07:20.541338",
+    "latency_ms": 4954.55,
+    "timestamp": "2026-06-13T12:34:09.042164",
     "status": "UP"
   },
   {
     "name": "HTTP 404",
     "url": "https://stubkit.dev/status/404",
-    "status_code": 404,
-    "latency_ms": 680.92,
-    "timestamp": "2026-06-11T17:07:21.226629",
-    "status": "DOWN"
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:34:14.248815",
+    "status": "DOWN",
+    "error": "status 404"
   },
   {
     "name": "HTTP 500",
     "url": "https://stubkit.dev/status/500",
-    "status_code": 500,
-    "latency_ms": 397.46,
-    "timestamp": "2026-06-11T17:07:21.625422",
-    "status": "DOWN"
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:34:19.037271",
+    "status": "DOWN",
+    "error": "status 500"
   },
   {
     "name": "JSONPlaceholder",
     "url": "https://jsonplaceholder.typicode.com/posts/1",
     "status_code": 200,
-    "latency_ms": 538.34,
-    "timestamp": "2026-06-11T17:07:22.168040",
+    "latency_ms": 466.88,
+    "timestamp": "2026-06-13T12:34:19.509390",
     "status": "UP"
   },
   {
     "name": "Swapi people",
     "url": "https://swapi.py4e.com/api/people",
     "status_code": 200,
-    "latency_ms": 782.88,
-    "timestamp": "2026-06-11T17:07:23.842238",
+    "latency_ms": 573.09,
+    "timestamp": "2026-06-13T12:34:20.907284",
     "status": "UP"
   },
   {
     "name": "Postman Echo",
     "url": "https://postman-echo.com/get",
     "status_code": 200,
-    "latency_ms": 738.28,
-    "timestamp": "2026-06-11T17:07:24.582777",
+    "latency_ms": 746.76,
+    "timestamp": "2026-06-13T12:34:21.657411",
     "status": "UP"
   },
   {
     "name": "Petstore List Pets",
     "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
-    "status_code": 403,
-    "latency_ms": 1040.49,
-    "timestamp": "2026-06-11T17:07:25.624539",
-    "status": "DOWN"
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:34:27.434672",
+    "status": "DOWN",
+    "error": "status 403"
   },
   {
     "name": "Simple-Books get book",
     "url": "https://simple-books-api.click/books/2",
     "status_code": 200,
-    "latency_ms": 1018.23,
-    "timestamp": "2026-06-11T17:07:26.645375",
-    "status": "UP"
-  },
-  {
-    "name": "GitHub Status",
-    "url": "https://www.githubstatus.com/api/v2/status.json",
-    "status_code": 200,
-    "latency_ms": 626.05,
-    "timestamp": "2026-06-12T14:17:32.360710",
-    "status": "UP"
-  },
-  {
-    "name": "HTTPBin GET",
-    "url": "https://httpbin.org/get",
-    "status_code": 503,
-    "latency_ms": 882.72,
-    "timestamp": "2026-06-12T14:17:33.246089",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTPBin Delay 2s",
-    "url": "https://httpbin.org/delay/2",
-    "status_code": 503,
-    "latency_ms": 820.98,
-    "timestamp": "2026-06-12T14:17:34.070972",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTP 404",
-    "url": "https://stubkit.dev/status/404",
-    "status_code": 404,
-    "latency_ms": 711.78,
-    "timestamp": "2026-06-12T14:17:34.784396",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTP 500",
-    "url": "https://stubkit.dev/status/500",
-    "status_code": 500,
-    "latency_ms": 407.85,
-    "timestamp": "2026-06-12T14:17:35.196112",
-    "status": "DOWN"
-  },
-  {
-    "name": "JSONPlaceholder",
-    "url": "https://jsonplaceholder.typicode.com/posts/1",
-    "status_code": 200,
-    "latency_ms": 459.85,
-    "timestamp": "2026-06-12T14:17:35.708739",
-    "status": "UP"
-  },
-  {
-    "name": "Swapi people",
-    "url": "https://swapi.py4e.com/api/people",
-    "status_code": 200,
-    "latency_ms": 559.22,
-    "timestamp": "2026-06-12T14:17:37.122874",
-    "status": "UP"
-  },
-  {
-    "name": "Postman Echo",
-    "url": "https://postman-echo.com/get",
-    "status_code": 200,
-    "latency_ms": 715.14,
-    "timestamp": "2026-06-12T14:17:37.842125",
-    "status": "UP"
-  },
-  {
-    "name": "Petstore List Pets",
-    "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
-    "status_code": 403,
-    "latency_ms": 991.85,
-    "timestamp": "2026-06-12T14:17:38.836780",
-    "status": "DOWN"
-  },
-  {
-    "name": "Simple-Books get book",
-    "url": "https://simple-books-api.click/books/2",
-    "status_code": 200,
-    "latency_ms": 995.53,
-    "timestamp": "2026-06-12T14:17:39.834571",
-    "status": "UP"
-  },
-  {
-    "name": "Simple-Books get book",
-    "url": "https://simple-books-api.click/books/2",
-    "status_code": 200,
-    "latency_ms": 584.79,
-    "timestamp": "2026-06-12T14:17:40.422038",
-    "status": "UP"
-  },
-  {
-    "name": "GitHub Status",
-    "url": "https://www.githubstatus.com/api/v2/status.json",
-    "status_code": 200,
-    "latency_ms": 830.51,
-    "timestamp": "2026-06-12T15:16:53.338191",
-    "status": "UP"
-  },
-  {
-    "name": "HTTPBin GET",
-    "url": "https://httpbin.org/get",
-    "status_code": 503,
-    "latency_ms": 896.43,
-    "timestamp": "2026-06-12T15:16:54.235868",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTPBin Delay 2s",
-    "url": "https://httpbin.org/delay/2",
-    "status_code": 503,
-    "latency_ms": 912.31,
-    "timestamp": "2026-06-12T15:16:55.149370",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTP 404",
-    "url": "https://stubkit.dev/status/404",
-    "status_code": 404,
-    "latency_ms": 741.96,
-    "timestamp": "2026-06-12T15:16:55.892739",
-    "status": "DOWN"
-  },
-  {
-    "name": "HTTP 500",
-    "url": "https://stubkit.dev/status/500",
-    "status_code": 500,
-    "latency_ms": 476.38,
-    "timestamp": "2026-06-12T15:16:56.370360",
-    "status": "DOWN"
-  },
-  {
-    "name": "JSONPlaceholder",
-    "url": "https://jsonplaceholder.typicode.com/posts/1",
-    "status_code": 200,
-    "latency_ms": 437.51,
-    "timestamp": "2026-06-12T15:16:56.809260",
-    "status": "UP"
-  },
-  {
-    "name": "Swapi people",
-    "url": "https://swapi.py4e.com/api/people",
-    "status_code": 200,
-    "latency_ms": 463.92,
-    "timestamp": "2026-06-12T15:16:58.076958",
-    "status": "UP"
-  },
-  {
-    "name": "Postman Echo",
-    "url": "https://postman-echo.com/get",
-    "status_code": 200,
-    "latency_ms": 710.11,
-    "timestamp": "2026-06-12T15:16:58.788944",
-    "status": "UP"
-  },
-  {
-    "name": "Petstore List Pets",
-    "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
-    "status_code": 403,
-    "latency_ms": 1150.59,
-    "timestamp": "2026-06-12T15:16:59.940744",
-    "status": "DOWN"
-  },
-  {
-    "name": "Simple-Books get book",
-    "url": "https://simple-books-api.click/books/2",
-    "status_code": 200,
-    "latency_ms": 940.82,
-    "timestamp": "2026-06-12T15:17:00.882743",
+    "latency_ms": 966.79,
+    "timestamp": "2026-06-13T12:34:28.406966",
     "status": "UP"
   },
   {
@@ -252,7 +87,287 @@
     "url": "http://10.255.255.1",
     "status_code": null,
     "latency_ms": null,
-    "timestamp": "2026-06-12T15:17:02.892452",
+    "timestamp": "2026-06-13T12:34:42.442556",
+    "status": "DOWN",
+    "error": "timeout"
+  },
+  {
+    "name": "GitHub Status",
+    "url": "https://www.githubstatus.com/api/v2/status.json",
+    "status_code": 200,
+    "latency_ms": 606.2,
+    "timestamp": "2026-06-13T12:54:20.736023",
+    "status": "UP"
+  },
+  {
+    "name": "HTTPBin GET",
+    "url": "https://httpbin.org/get",
+    "status_code": 200,
+    "latency_ms": 2667.9,
+    "timestamp": "2026-06-13T12:54:23.408209",
+    "status": "UP"
+  },
+  {
+    "name": "HTTPBin Delay 2s",
+    "url": "https://httpbin.org/delay/2",
+    "status_code": 200,
+    "latency_ms": 4030.05,
+    "timestamp": "2026-06-13T12:54:27.442346",
+    "status": "UP"
+  },
+  {
+    "name": "HTTP 404",
+    "url": "https://stubkit.dev/status/404",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:54:32.385806",
+    "status": "DOWN",
+    "error": "status 404"
+  },
+  {
+    "name": "HTTP 500",
+    "url": "https://stubkit.dev/status/500",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:54:37.211158",
+    "status": "DOWN",
+    "error": "status 500"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "status_code": 200,
+    "latency_ms": 441.44,
+    "timestamp": "2026-06-13T12:54:37.657504",
+    "status": "UP"
+  },
+  {
+    "name": "Swapi people",
+    "url": "https://swapi.py4e.com/api/people",
+    "status_code": 200,
+    "latency_ms": 355.03,
+    "timestamp": "2026-06-13T12:54:41.026026",
+    "status": "UP"
+  },
+  {
+    "name": "Postman Echo",
+    "url": "https://postman-echo.com/get",
+    "status_code": 200,
+    "latency_ms": 666.44,
+    "timestamp": "2026-06-13T12:54:41.697114",
+    "status": "UP"
+  },
+  {
+    "name": "Petstore List Pets",
+    "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:54:47.393851",
+    "status": "DOWN",
+    "error": "status 403"
+  },
+  {
+    "name": "Simple-Books get book",
+    "url": "https://simple-books-api.click/books/2",
+    "status_code": 200,
+    "latency_ms": 1000.52,
+    "timestamp": "2026-06-13T12:54:48.397928",
+    "status": "UP"
+  },
+  {
+    "name": "About:blank",
+    "url": "http://10.255.255.1",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T12:55:02.411398",
+    "status": "DOWN",
+    "error": "timeout"
+  },
+  {
+    "name": "GitHub Status",
+    "url": "https://www.githubstatus.com/api/v2/status.json",
+    "status_code": 200,
+    "latency_ms": 871.32,
+    "timestamp": "2026-06-13T18:11:28.367945",
+    "status": "UP"
+  },
+  {
+    "name": "HTTPBin GET",
+    "url": "https://httpbin.org/get",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:11:34.215019",
+    "status": "DOWN",
+    "error": "status 503"
+  },
+  {
+    "name": "HTTPBin Delay 2s",
+    "url": "https://httpbin.org/delay/2",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:11:40.048913",
+    "status": "DOWN",
+    "error": "status 503"
+  },
+  {
+    "name": "HTTP 404",
+    "url": "https://stubkit.dev/status/404",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:11:45.339358",
+    "status": "DOWN",
+    "error": "status 404"
+  },
+  {
+    "name": "HTTP 500",
+    "url": "https://stubkit.dev/status/500",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:11:50.268695",
+    "status": "DOWN",
+    "error": "status 500"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "status_code": 200,
+    "latency_ms": 408.66,
+    "timestamp": "2026-06-13T18:11:50.682300",
+    "status": "UP"
+  },
+  {
+    "name": "Swapi people",
+    "url": "https://swapi.py4e.com/api/people",
+    "status_code": 200,
+    "latency_ms": 358.38,
+    "timestamp": "2026-06-13T18:11:51.916182",
+    "status": "UP"
+  },
+  {
+    "name": "Postman Echo",
+    "url": "https://postman-echo.com/get",
+    "status_code": 200,
+    "latency_ms": 716.9,
+    "timestamp": "2026-06-13T18:11:52.637519",
+    "status": "UP"
+  },
+  {
+    "name": "Petstore List Pets",
+    "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:11:58.804010",
+    "status": "DOWN",
+    "error": "status 403"
+  },
+  {
+    "name": "Simple-Books get book",
+    "url": "https://simple-books-api.click/books/2",
+    "status_code": 200,
+    "latency_ms": 937.05,
+    "timestamp": "2026-06-13T18:11:59.746193",
+    "status": "UP"
+  },
+  {
+    "name": "About:blank",
+    "url": "http://10.255.255.1",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:12:13.764047",
+    "status": "DOWN",
+    "error": "timeout"
+  },
+  {
+    "name": "GitHub Status",
+    "url": "https://www.githubstatus.com/api/v2/status.json",
+    "status_code": 200,
+    "latency_ms": 772.47,
+    "timestamp": "2026-06-13T18:15:24.317922",
+    "status": "UP"
+  },
+  {
+    "name": "HTTPBin GET",
+    "url": "https://httpbin.org/get",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:15:30.111891",
+    "status": "DOWN",
+    "error": "status 503"
+  },
+  {
+    "name": "HTTPBin Delay 2s",
+    "url": "https://httpbin.org/delay/2",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:15:35.930138",
+    "status": "DOWN",
+    "error": "status 503"
+  },
+  {
+    "name": "HTTP 404",
+    "url": "https://stubkit.dev/status/404",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:15:40.788146",
+    "status": "DOWN",
+    "error": "status 404"
+  },
+  {
+    "name": "HTTP 500",
+    "url": "https://stubkit.dev/status/500",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:15:45.655483",
+    "status": "DOWN",
+    "error": "status 500"
+  },
+  {
+    "name": "JSONPlaceholder",
+    "url": "https://jsonplaceholder.typicode.com/posts/1",
+    "status_code": 200,
+    "latency_ms": 412.51,
+    "timestamp": "2026-06-13T18:15:46.073797",
+    "status": "UP"
+  },
+  {
+    "name": "Swapi people",
+    "url": "https://swapi.py4e.com/api/people",
+    "status_code": 200,
+    "latency_ms": 341.52,
+    "timestamp": "2026-06-13T18:15:47.250858",
+    "status": "UP"
+  },
+  {
+    "name": "Postman Echo",
+    "url": "https://postman-echo.com/get",
+    "status_code": 200,
+    "latency_ms": 745.44,
+    "timestamp": "2026-06-13T18:15:48.000654",
+    "status": "UP"
+  },
+  {
+    "name": "Petstore List Pets",
+    "url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:15:54.145509",
+    "status": "DOWN",
+    "error": "status 403"
+  },
+  {
+    "name": "Simple-Books get book",
+    "url": "https://simple-books-api.click/books/2",
+    "status_code": 200,
+    "latency_ms": 1109.66,
+    "timestamp": "2026-06-13T18:15:55.257687",
+    "status": "UP"
+  },
+  {
+    "name": "About:blank",
+    "url": "http://10.255.255.1",
+    "status_code": null,
+    "latency_ms": null,
+    "timestamp": "2026-06-13T18:16:09.278466",
     "status": "DOWN",
     "error": "timeout"
   }

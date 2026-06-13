@@ -1,16 +1,9 @@
 import json
 import os
-import argparse
 from datetime import datetime
 from collections import defaultdict
 from jinja2 import Environment, FileSystemLoader
 
-
-def parse_arguments():
-    parser = argparse.ArgumentParser(description="API Health Reporter")
-    parser.add_argument("--history", default="history/results.json", help="Path to history JSON file")
-    parser.add_argument("--output", default="reports/report.html", help="Path to save HTML report")
-    return parser.parse_args()
 
 #Загружает историю проверок из JSON файла===============
 def load_history(history_path):    
@@ -77,11 +70,11 @@ def generate_report(history_path, output_path):
     last_results = get_last_results(history)
     rows = build_rows(last_results, stats)
 
-    # Загружаем шаблон из папки templates/
+    # Загрузка шаблона из папки /templates
     env = Environment(loader=FileSystemLoader("templates"))
     template = env.get_template("report.html")
 
-    # Передаём данные в шаблон — {{ generated_at }}, {{ rows }} и т.д.
+    # данные передаются в шаблон — {{ generated_at }}, {{ rows }} и т.д.
     rendered = template.render(
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         total_checks=len(history),
@@ -92,13 +85,6 @@ def generate_report(history_path, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(rendered)
 
-    print(f"Отчёт сохранён: {output_path}")
+    print(f"Report saved: {output_path}")
 
 
-def main():
-    args = parse_arguments()
-    generate_report(args.history, args.output)
-
-
-if __name__ == "__main__":
-    main()
