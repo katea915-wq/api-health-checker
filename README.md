@@ -12,17 +12,18 @@ real support engineering workflows: checking response status, measuring latency,
 	- Generate HTML report with color-coded status table
 
 ## Requirements
-	- Python 3.10 or higher
+External libraries:
+- `requests` — HTTP requests
+- `jinja2` — HTML template rendering
 
-	The project uses only Python standard library modules:
-		- argparse
-		- csv
-		- collections
-		- datetime
-		- os
-		- sys
-		- logging
-		- json
+Standard library:
+- `json` — history storage
+- `argparse` — CLI arguments
+- `os` — file and directory operations
+- `sys` — system exit on errors
+- `time` — delay between retries
+- `datetime` — timestamps
+- `collections` — defaultdict for stats
 
 ## Usage
 
